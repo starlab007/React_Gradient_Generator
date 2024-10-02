@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body,
+.app {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.gradient {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.gradient h1 {
+  color: white;
+  text-decoration: underline;
+  margin-bottom: 2rem;
+}
+.colorPicker {
+  display: flex;
+  gap: 5rem;
+}
+
+.randomBtn {
+  margin-top: 2rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(49, 135, 49);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: ease 0.5s all;
+}
+.randomBtn:hover {
+  background-color: green;
+  transform: scale(1.05);
+}
+.output {
+  margin-top: 2rem;
+  border-radius: 5px;
+  padding: 5px 10px;
+  display: flex;
+  font-weight: bold;
+  font-size: 16px;
+  background: white;
+  align-items: center;
+}
